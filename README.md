@@ -21,9 +21,6 @@ dependencies {
 	implementation 'com.github.darshna5:phoneorientationdata-library:1.0'
 	}  
 
-
-### Add service to manifiest file:
- #### <service android:name="com.darshna.phoneorientationlibrary.aidl.OrientationService" android:enabled="true" android:exported="true" />
 	    
 ### Bind Service in Activity/Fragment:
  private fun addSensorDataObserver() {
@@ -66,6 +63,10 @@ dependencies {
             }
         }
     } 
+    
+### Add service to manifiest file:
+ #### <service android:name="com.darshna.phoneorientationlibrary.aidl.OrientationService" android:enabled="true" android:exported="true" />
+
 
 
 
