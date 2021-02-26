@@ -1,8 +1,8 @@
 # Phone Orientation Data Library
 
 ## Library Description:
-This library helps to provide phone orientation data using AIDL service of interval 8ms.
-Multiple applications/clients can connect to service using the SDK at a time to get the orientation data.  
+* This library helps to provide phone orientation data using AIDL service of interval 8ms.
+* Multiple applications/clients can connect to service using the SDK at a time to get the orientation data.  
 
 ## Technical Description:
 *	I have used 3rd party librariey like lifecycle.
